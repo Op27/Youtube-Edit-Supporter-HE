@@ -16,7 +16,7 @@ git clone https://github.com/Op27/Youtube-Edit-Supporter-HE
 
 2. **Navigate to the Project Directory**:
 ```python
-cd Youtube-Edit-Supporter
+cd Youtube-Edit-Supporter-HE
 ```
 3. **Install Required Python Packages**: Run the following command to install the necessary dependencies listed in `requirements.txt`:
 ```python
