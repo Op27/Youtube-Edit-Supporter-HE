@@ -3,6 +3,13 @@
 ## Overview
 The Youtube-Edit-Supporter application is designed to enhance the endorsing process of YouTube videos by automating key post-production tasks. This Python-based tool focuses on improving the audio quality of interviews by removing background noise, transcribing spoken text in Hebrew, and translating the transcribed text into English.
 
+Sample: Screenshot from the application showing translated outputs
+
+<img width="473" alt="sample output" src="https://github.com/Op27/Youtube-Edit-Supporter-HE/assets/39921621/debb32b8-883c-42b0-a4f3-13738eb9da66">
+
+Original source by [The Ask Project](https://www.youtube.com/watch?v=D8jf_PTSY_Y)
+
+
 ## Features
 - **Audio Extraction**: Extract audio from MP4 video files.
 - **Noise Reduction**: Apply noise reduction techniques to enhance audio clarity.
