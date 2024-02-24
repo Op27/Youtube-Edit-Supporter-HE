@@ -5,7 +5,7 @@ from googletrans import Translator # For translating text from one language to a
 import os # For file and directory operations
 
 # Path to your MP4 video file
-video_file_path = r'C:\Users\owner\Documents\my_project\Youtube-Edit-Supporter\audio input\video.mp4'
+video_file_path = r'C:\path\to\your\video\input\video.mp4'
 
 # Load the video file
 video = mp.VideoFileClip(video_file_path)
@@ -14,7 +14,7 @@ video = mp.VideoFileClip(video_file_path)
 audio = video.audio
 
 # Save the audio to a file with minor background noises reduced
-audio_file_path = r'C:\Users\owner\Documents\my_project\Youtube-Edit-Supporter\audio output\noise_reduced_audio.wav'
+audio_file_path = r'C:\path\to\your\audio\output\noise_reduced_audio.wav'
 audio.write_audiofile(audio_file_path)
 
 # Close the video file
@@ -46,7 +46,7 @@ with sr.AudioFile(audio_file_path) as source:
         print(output_text)
         
         # Save the output text to a file in the specified "text output" folder
-        output_file_path = r'C:\Users\owner\Documents\my_project\Youtube-Edit-Supporter\text output\text_output.txt'
+        output_file_path = r'C:\path\to\your\text\output\text_output.txt'
         os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
         with open(output_file_path, 'w', encoding='utf-8') as file:
             file.write(output_text)
